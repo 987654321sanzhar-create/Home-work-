@@ -5,8 +5,9 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
-        BankAccount bank = new BankAccount("dddd",300);
-        System.out.println(bank.withdraw(250));
-        System.out.println(bank.getBalance());
+   Car car = new Car();
+   car.stopEngine();
+   car.accelerate(500);
+        System.out.println(car.getSpeed());
     }
 }
